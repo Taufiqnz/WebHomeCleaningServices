@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg " style="background-color: #004643; ">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: white;">
+                <img src="/assets/image/logoHCS.png" alt="Logo" width="40" height="40"
+                    class="d-inline-block align-text-top">
+                <a href="#" style="cursor: pointer; color: white"
+                    class="navbar-brand poppins-bold-italic">Home<span>Cleaning</span>Service</a>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: white">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jasa" style="color: white">Jasa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://wa.me/6283807025715" target="_blank"
+                            style="color: white">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/taufiq1020/" target="_blank"
+                            style="color: white">Follow Saya</a>
+                    </li>
+                </ul>
+                <div>
+                    <i class="bi bi-trash" style="color: white; font-size: 1.5rem;"></i>
+                    <i class="bi bi-house-heart-fill" style="color: white; font-size: 1.5rem;"></i>
+                    <i class="bi bi-tree-fill" style="color: white; font-size: 1.5rem;"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>
+                        Selamat Datang di Website <br> Home Cleaning Service
+                    </h1>
+                    <p>Website ini menyediakan layanan pembersihan rumah dengan berbagai pilihan paket yang
+                        <br>
+                        dapat
+                        disesuaikan. Kami menawarkan paket harian, mingguan, hingga pembersihan
+                        <br>
+                        mendalam, semua
+                        dirancang untuk memenuhi kebutuhan kebersihan rumah Anda.
+                    </p>
+                    <button class="button"><a style="text-decoration: none; color: black;" href="#jasa">Pesan
+                            Sekarang!</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="jasa" class="jasa">
+        <h1>
+            Pilihan Jasa
+        </h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 22rem; ">
+                        <div class="card-body">
+                            <h5 class="card-title">Paket Pembersihan Harian</h5>
+                            <p class="card-text">Pembersihan ringan setiap hari untuk menjaga kebersihan dan kerapihan
+                                rumah. Meliputi penyapuan, pengepelan, dan merapikan area umum.</p>
+                            <button onclick="tombolAlert()" class="buttonCard">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 22rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Paket Pembersihan Mingguan</h5>
+                            <p class="card-text">Pembersihan menyeluruh setiap minggu, termasuk pembersihan debu,
+                                penyedotan debu pada karpet, dan pembersihan kamar mandi serta dapur.</p>
+                            <button onclick="tombolAlert()" class="buttonCard">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 22rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Paket Pembersihan Bulanan</h5>
+                            <p class="card-text">Pembersihan mendalam setiap bulan yang mencakup pembersihan seluruh
+                                ruangan, pembersihan jendela, dan pembersihan area yang sulit dijangkau.</p>
+                            <button onclick="tombolAlert()" class="buttonCard">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 22rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Paket Pembersihan Kamar</h5>
+                            <p class="card-text">Fokus pada pembersihan kamar tidur dan kamar mandi, termasuk merapikan
+                                tempat tidur, membersihkan debu, dan sanitasi kamar mandi.</p>
+                            <button onclick="tombolAlert()" class="buttonCard">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 22rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Paket Pembersihan Dapur</h5>
+                            <p class="card-text">Pembersihan menyeluruh dapur, mencakup pembersihan permukaan, peralatan
+                                dapur, dan penghilangan noda minyak.</p>
+                            <button onclick="tombolAlert()" class="buttonCard">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem; height: 22rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Paket Pembersihan Setelah Acara</h5>
+                            <p class="card-text">Layanan pembersihan setelah acara atau pesta, meliputi pembersihan
+                                seluruh ruangan, pengangkutan sampah, dan pemulihan rumah ke kondisi semula.</p>
+                            <button onclick="tombolAlert()" class="buttonCard">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <h1 class="container text-center">&copy;TaufiqNasution</h1>
+        </footer>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
